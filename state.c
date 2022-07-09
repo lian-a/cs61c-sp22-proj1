@@ -123,7 +123,6 @@ static char body_to_tail(char c) {
     case '>': temp = 'd'; break;
     case '^': temp = 'w'; break;
     case 'v': temp = 's'; break;
-    default: ;
   }
   return temp;
 }
